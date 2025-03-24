@@ -7,7 +7,7 @@ html{
 }
 .container {
     width: 1140px;
-    height: 87;
+
     margin: 0 auto;
     padding-left: 490px;
     padding-right: 490px;
@@ -16,6 +16,7 @@ html{
 body{
     background-color:#FCF5FF;
     margin: 0 auto;
+
 }
 
 header {
@@ -26,8 +27,8 @@ header {
     font-family: 'Jost';
     font-size: 24px;
     position:fixed;
-    
 }
+
 a{
     margin-left: 81px;
     text-decoration: none;
@@ -51,7 +52,6 @@ h2{
     font-weight: normal;
     margin-bottom: -15px;
 }
-
 .about-us-content{
     margin-top: 134px;
     display: flex;
@@ -128,4 +128,9 @@ div.block-description>p{
     margin-bottom: 45px;
     font-size: 24px;
     font-weight:350;
+}
+
+.course-name{
+    display: flex;
+    margin-top: -10px;
 }
