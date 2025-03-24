@@ -52,7 +52,7 @@ h2{
     margin-bottom: 0;
 }
 p{
-    margin: auto 5;
+    margin-top: 10px;
 }
 
 
@@ -75,6 +75,7 @@ p{
 h1{
     font-weight: normal;
     font-size: 60px;
+    margin: 0;
 }
 #logo{
     padding: 5px;
