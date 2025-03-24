@@ -55,11 +55,14 @@ p{
     display: flex;
     font-family: 'Jost';
     font-size: 24px;
-    background-color: rgba(151, 71, 255, 17%);
+    background-color: rgba(151, 71, 255, 17%);  
 }
 #about-us-text-light{
     font-weight:200;
     margin-top: 10;
+}
+p{
+    margin: 10px;
 }
 
 h1{
