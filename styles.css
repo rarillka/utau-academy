@@ -77,6 +77,9 @@ h1{
     font-size: 60px;
     margin: 0;
 }
+h3{
+    font-weight: normal;
+}
 #logo{
     padding: 5px;
 }
@@ -101,4 +104,16 @@ button:hover{
     background-color: #BC8EE5;
     color: white;
     border-radius: 15px 15px;  
+}
+
+#catalog{
+    font-family: 'Jost';
+}
+
+.card-img{
+    background-color: #CAA8F6;
+}
+
+.card{
+    width: 366px;
 }
