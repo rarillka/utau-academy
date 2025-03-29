@@ -42,11 +42,12 @@ a:hover{
     display: flex;
     align-items: center;
     background-image: url(images/cover\ bg.png);
+    background-position: 0px 24px;
     background-size: cover;
     font-family: 'Jost';
     font-size: 38px;
-    
 }
+
 h2{
     font-size: 48px;
     font-weight: normal;
