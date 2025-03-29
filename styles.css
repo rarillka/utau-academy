@@ -9,8 +9,8 @@ html{
     width: 1140px;
 
     margin: 0 auto;
-    padding-left: 490px;
-    padding-right: 490px;
+    padding-left: 357.5px;
+    padding-right: 357.5px;
 }
 
 body{
@@ -29,6 +29,7 @@ header {
     position:fixed;
 }
 
+
 a{
     margin-left: 81px;
     text-decoration: none;
@@ -46,6 +47,11 @@ a:hover{
     background-size: cover;
     font-family: 'Jost';
     font-size: 38px;
+    padding-top: 100px;
+}
+
+.cover-content>p{
+    margin-top: 15px;
 }
 
 h2{
@@ -58,13 +64,14 @@ h2{
     display: flex;
     font-family: 'Jost';
     font-size: 24px;
-    background-color: rgba(151, 71, 255, 17%);  
+    background-color: rgba(151, 71, 255, 17%); 
+    height: 413px; 
 }
 #about-us-text-light{
     font-weight:250;
 }
 .about-us-text{
-    margin: 10px;
+    margin-top: -30px;
 }
 
 h1{
