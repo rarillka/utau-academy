@@ -72,8 +72,18 @@ h1{
     margin: 0;
 }
 h3{
-    font-weight: 300;
+    font-weight: 330;
     font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+h3#price{
+    font-weight: 450;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#bold-heading{
+    font-weight: 550;
 }
 #logo{
     padding: 5px;
@@ -91,6 +101,12 @@ button{
     border: none;
 }
 
+button.course-btn{
+    width: 364px;
+}
+button.course-btn:hover{
+    width: 364px;
+}
 
 button:hover{
     width: 289px;
@@ -108,6 +124,7 @@ button:hover{
     align-items: center;
 }
 
+
 .card-img{
     background-color: #CAA8F6;
 }
@@ -116,15 +133,16 @@ button:hover{
     width: 366px;
 }
 
-div.card-description>p{
+.card-description>p{
     margin: 0;
     width: 281px;
 }
-div.card-description>img{
+.course-desc-text>img{
     float: left;  
+    margin-bottom: 10px;
 }
 
-div.block-description>p{
+.block-description>p{
     margin-bottom: 45px;
     font-size: 24px;
     font-weight:350;
@@ -132,5 +150,9 @@ div.block-description>p{
 
 .course-name{
     display: flex;
-    margin-top: -10px;
+    margin-top: -25px;
+}
+
+.course-desc-text{
+    margin-top:;
 }
