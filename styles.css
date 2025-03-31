@@ -27,11 +27,13 @@ header {
     position:fixed;
 
 }
-
+a.nav-text{
+    text-decoration: none;
+}
 
 a{
     margin-left: 81px;
-    text-decoration: none;
+
     color: black;
 }
 a:hover{
@@ -209,6 +211,9 @@ button:hover{
 .mr{
     margin-right: 15px;
 }
+ul{
+    list-style-type: none;
+}
 
 .contacts-content{
     margin-top: 72px;
@@ -216,10 +221,22 @@ button:hover{
     font-family: 'Jost';
     font-size: 24px;
     background-color: rgba(151, 71, 255, 17%);  
+    padding-bottom: 200px;
 }
 
 .contacts-content>img{
     float: right;
-    margin-top: -150px;
+    margin-top: -300px;
     margin-right: 150px;
+}
+
+.contacts-text{
+    font-weight: 350;
+    font-size: 32px;
+    margin-left: -60px; 
+
+}
+
+#contacts-heading{
+    font-size: 64px;
 }
