@@ -7,7 +7,6 @@ html{
 }
 .container {
     width: 1140px;
-
     margin: 0 auto;
     padding-left: 490px;
     padding-right: 490px;
@@ -18,7 +17,6 @@ body{
     margin: 0 auto;
 
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -27,6 +25,7 @@ header {
     font-family: 'Jost';
     font-size: 24px;
     position:fixed;
+
 }
 
 
@@ -48,6 +47,7 @@ a:hover{
     font-family: 'Jost';
     font-size: 38px;
     padding-top: 100px;
+    margin-bottom: 46px;
 }
 
 .cover-content>p{
@@ -59,8 +59,10 @@ h2{
     font-weight: normal;
     margin-bottom: -15px;
 }
+#about-us{
+    padding-top: 88px;
+}
 .about-us-content{
-    margin-top: 134px;
     display: flex;
     font-family: 'Jost';
     font-size: 24px;
@@ -145,7 +147,7 @@ button:hover{
 
 #catalog{
     font-family: 'Jost';
-    margin-top: 159px;
+    padding-top: 70px;
     display: flex;
     align-items: center;
 }
