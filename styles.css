@@ -27,7 +27,7 @@ header {
     position:fixed;
 
 }
-a.nav-text{
+a.no-underline{
     text-decoration: none;
 }
 
@@ -95,19 +95,22 @@ h3{
     font-weight: 420;
     margin-left: 21px;
     padding-right: -20px;
-    margin-top: 30px;
+    margin-top: 25px;
+    font-size: 24px;
 }
 #price1{
     font-weight: 420;
     margin-left: 50px;
     padding-right: -20px;
-    margin-top: 30px;
+    margin-top: 25px;
+    font-size: 24px;
 }
 #price2{
     font-weight: 420;
     margin-left: 70px;
     padding-right: -20px;
-    margin-top: 30px;
+    margin-top: 25px;
+    font-size: 24px;
 }
 .bold-heading{
     font-weight: 550;
@@ -249,10 +252,13 @@ ul{
     margin-top: 10px;
 }
 
-
-
 .contacts-links{
     margin-left: -30px;
+}
+
+
+#blog{
+    padding-top: 87px;
 }
 
 .blog-content>p{
@@ -260,12 +266,28 @@ ul{
     font-weight: 200;
 }
 
+.blog-block>button{
+    height: 57px;
+    font-size: 24px;
+    font-weight: 350;
+    width: 364px;
+}
+
+
+
+
+
+
+
+
 #form{
-    height: 626px;
+    height: 676px;
     background-color:rgba(151, 71, 255, 17%);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 1920px;
+    padding-top: 20px;
 }
 
 
@@ -273,29 +295,84 @@ form{
     display: flex;
     flex-direction: column;
     width: 576px;
-    margin-left: 25px;
+    margin-left: 45px;
 }
-input{
+input, textarea{
     padding-left: 20px;
     margin-bottom: 14px;
+    font-family: "Jost";
+    font-size: 15px;
+    background-color: #CAA8F6;
+    border: 1px solid #674593;
+}
+input:focus, textarea:focus{
+
+    outline: none;
+    border: 2px solid #674593;
+    color: #674593;
 }
 
+input:active, textarea:active{  
+    outline: none;
+    border: 2px solid #674593;
+    color: #674593;
+}
+input:active, textarea:active{  
+    color: #674593;
+}
+::placeholder{
+    color: rgba(128, 93, 172, 0.42);
+}
+input:not([value='']), textarea:not([value='']){
+    color: #674593;
+}
 .small-input{
     height: 58px;
 }
 
 .large-input{
     height: 176px;
+    padding-top: 20px;
 }
 
 .form-content>p{
     font-size: 30px;
     color: #674593;
-    font-weight: 500;
-    filter: drop-shadow(0px 4px 4px rgba(151, 71, 255, 21%))
+    font-weight: 650;
+    text-shadow:0px 4px 4px rgba(151, 71, 255, 30%)
+}
+.form-content{
+    margin-top: -50px;
+}
+.colored-p{
+    font-weight: 650;
+    color: #6818D0;
 }
 
-.colored-p{
-    font-weight: 500;
-    color: #6818D0;
+#form-button{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+
+footer{
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+#footer-logo{
+    float: left;
+    width: 49px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+.footer-content>ul>li{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.right-footer-part{
+    text-align: right;
+    margin-top: -150px;
 }
