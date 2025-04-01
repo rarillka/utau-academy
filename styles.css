@@ -306,21 +306,23 @@ h4{
 
 
 #form{
-    height: 676px;
+    padding-top: 97px;
+}
+.form-content{
+    margin-top: -50px;
+    height: 717px;
     background-color:rgba(151, 71, 255, 17%);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 1920px;
-    padding-top: 20px;
 }
-
 
 form{
     display: flex;
     flex-direction: column;
     width: 576px;
-    margin-left: 45px;
 }
 input, textarea{
     padding-left: 20px;
@@ -366,9 +368,7 @@ input:not([value='']), textarea:not([value='']){
     font-weight: 650;
     text-shadow:0px 4px 4px rgba(151, 71, 255, 30%)
 }
-.form-content{
-    margin-top: -50px;
-}
+
 .colored-p{
     font-weight: 650;
     color: #6818D0;
@@ -376,7 +376,6 @@ input:not([value='']), textarea:not([value='']){
 
 #form-button{
     margin-top: 20px;
-    margin-left: 180px;
 }
 
 
