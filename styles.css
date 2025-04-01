@@ -259,6 +259,7 @@ ul{
 
 #blog{
     padding-top: 87px;
+    margin-bottom: 50px;
 }
 
 .blog-content>p{
@@ -274,10 +275,34 @@ ul{
 }
 
 
+h4{
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: 350;
+    line-height: 27px;
+    margin-bottom: 35px;
+}
+
+.thin-text{
+    color: rgba(103, 103, 103, 1);
+    font-weight: 350;
+    font-style: italic; 
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+}
 
 
+.blog-vid-links{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
+.mgr{
+    margin-right: 20px;
+}
+.mgb{
+    margin-bottom: 55px;
+}
 
 
 #form{
