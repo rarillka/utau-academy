@@ -15,14 +15,14 @@ html{
 body{
     background-color:#FCF5FF;
     margin: 0 auto;
-
+    font-family: 'Jost';
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #CAA8F6;
-    font-family: 'Jost';
+
     font-size: 24px;
     position:fixed;
 
@@ -218,7 +218,7 @@ ul{
 
 .contacts-content{
     margin-top: 72px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: 'Jost';
     font-size: 24px;
     background-color: rgba(151, 71, 255, 17%);  
@@ -227,7 +227,7 @@ ul{
 
 .contacts-content>img{
     float: right;
-    margin-top: -400px;
+    margin-top: -380px;
     margin-right: 150px;
 }
 
@@ -253,4 +253,49 @@ ul{
 
 .contacts-links{
     margin-left: -30px;
+}
+
+.blog-content>p{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+#form{
+    height: 626px;
+    background-color:rgba(151, 71, 255, 17%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+    margin-left: 25px;
+}
+input{
+    padding-left: 20px;
+    margin-bottom: 14px;
+}
+
+.small-input{
+    height: 58px;
+}
+
+.large-input{
+    height: 176px;
+}
+
+.form-content>p{
+    font-size: 30px;
+    color: #674593;
+    font-weight: 500;
+    filter: drop-shadow(0px 4px 4px rgba(151, 71, 255, 21%))
+}
+
+.colored-p{
+    font-weight: 500;
+    color: #6818D0;
 }
