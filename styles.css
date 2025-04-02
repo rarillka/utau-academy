@@ -8,9 +8,8 @@ html{
 .container {
     width: 1140px;
     margin: 0 auto;
-    padding-left: 490px;
-    padding-right: 490px;
 }
+
 
 body{
     background-color:#FCF5FF;
@@ -22,10 +21,10 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #CAA8F6;
-
+    padding-left: 447px;
+    padding-right: 446px;
     font-size: 24px;
     position:fixed;
-
 }
 a.no-underline{
     text-decoration: none;
@@ -64,6 +63,7 @@ h2{
 }
 #about-us{
     padding-top: 88px;
+    
 }
 .about-us-content{
     display: flex;
@@ -71,6 +71,8 @@ h2{
     font-size: 24px;
     background-color: rgba(151, 71, 255, 17%); 
     height: 413px; 
+    padding-left: 447px;
+    padding-right: 446px;
 }
 #about-us-text-light{
     font-weight:250;
@@ -91,24 +93,10 @@ h3{
     margin-bottom: 20px;
 
 }
-#price{
+
+.price{
     font-weight: 420;
-    margin-left: 21px;
-    padding-right: -20px;
-    margin-top: 25px;
-    font-size: 24px;
-}
-#price1{
-    font-weight: 420;
-    margin-left: 50px;
-    padding-right: -20px;
-    margin-top: 25px;
-    font-size: 24px;
-}
-#price2{
-    font-weight: 420;
-    margin-left: 70px;
-    padding-right: -20px;
+
     margin-top: 25px;
     font-size: 24px;
 }
@@ -193,6 +181,7 @@ button:hover{
 
 .course-name{
     display: flex;
+    justify-content: space-between;
     margin-top: -15px;
     width: 366px;
 }
@@ -226,6 +215,8 @@ ul{
     font-size: 24px;
     background-color: rgba(151, 71, 255, 17%);  
     padding-bottom: 100px;
+    padding-left: 447px;
+    padding-right: 446px;
 }
 
 .contacts-content>img{
@@ -233,6 +224,8 @@ ul{
     margin-top: -380px;
     margin-right: 150px;
 }
+
+
 
 .contacts-inner{
     font-weight: 350;
@@ -260,6 +253,7 @@ ul{
 #blog{
     padding-top: 87px;
     margin-bottom: 50px;
+
 }
 
 .blog-content>p{
@@ -316,7 +310,8 @@ h4{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 1920px;
+    width: 2000px;
+    padding-right: 32px;
 }
 
 form{
